@@ -1,0 +1,22 @@
+﻿The Smart Terrain sample shows how a stage is scanned and props detected that you can then use to build an AR experience on. It should show you how the primary surface and the props may be visualized.
+
+Key Functionality
+- Detect an initial target - image
+- Activate Smart Terrain
+- Scan and find props (objects)
+- Render simple boxes on each prop
+- Manage camera functions: flash and continuous autofocus
+
+Targets
+https://developer.vuforia.com/sites/default/files/sample-apps/targets/stones.pdf
+
+Instructions
+- Set up the stage by placing the target image on the table and placing up to 5 objects around it
+- Point camera at target to view and pull back slowly till you see the whole stage. Pan left and right until the props are found and boxes rendered
+- Single tap to focus
+- Double tap to access options menu
+
+Terms of Use
+https://developer.vuforia.com/legal/EULA
+
+© 2012-2014 Qualcomm Connected Experiences, Inc. All Rights Reserved.
