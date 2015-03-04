@@ -76,6 +76,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Scripts\GUIController.cs" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
      <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
