@@ -1,0 +1,30 @@
+Tugas Akhir
+Implementasi Smart Terrain pada Aplikasi Augmented Reality untuk Membentuk Lingkungan 3D
+
+Bestama Abhi Priambada
+5111100146
+
+Teknik Informatika
+Fakultas Teknologi Informasi
+Institut Teknologi Sepuluh Nopember
+
+..version changes note..
+*TA-0:
+-konsep dasar smart terrain, mencoba2
+
+*TA-1:
+-smart terrain menggunakan sample
+
+*TA-1.1:
+-tetap memakai sample
+-mengganti dengan objek sendiri
+
+*TA-2:
+-smart terrain own project
+-menggunakan image target
+
+*TA-2.1:
+-tambahan menggunakan cylinder target
+-tambahan GUI
+
+*TA-2.2:
