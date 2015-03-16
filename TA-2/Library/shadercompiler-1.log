@@ -1,22 +1,97 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-5684
+Pipe name: \\.\pipe\UnityShaderCompiler-1-8160
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=1151 outsize=1734 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=4978 outsize=637 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=4978 outsize=339 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=2535 outsize=389 kw=POINT ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2535 outsize=458 kw=POINT ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1933 outsize=190 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1933 outsize=118 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=4380 outsize=646 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=4380 outsize=309 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=1151 outsize=1734 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=2535 outsize=295 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2535 outsize=321 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=4978 outsize=3308 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4978 outsize=1902 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4978 outsize=3856 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=4978 outsize=7 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=4978 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=2535 outsize=2135 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=2535 outsize=2435 kw=DIRECTIONAL_COOKIE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=2535 outsize=7 kw=POINT ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=2535 outsize=7 kw=DIRECTIONAL_COOKIE ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1933 outsize=775 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1933 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=4380 outsize=3483 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=4380 outsize=3055 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=4380 outsize=6 kw=LIGHTMAP_ON DIRLIGHTMAP_ON HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=4380 outsize=6 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=933 outsize=682 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=933 outsize=6 kw= ok=1
+Cmd: preprocess
+  insize=3501 outsize=1159 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=2580 outsize=432 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2580 outsize=587 kw= ok=1
+Cmd: preprocess
+  insize=4454 outsize=1479 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1019 outsize=157 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1019 outsize=66 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=2562 outsize=432 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=2562 outsize=587 kw= ok=1
+Cmd: preprocess
+  insize=3501 outsize=1159 ok=1
+Cmd: preprocess
+  insize=4454 outsize=1479 ok=1
+Cmd: preprocess
+  insize=1151 outsize=1734 ok=1
 Cmd: preprocess
   insize=660 outsize=660 ok=1
 Cmd: preprocess
   insize=963 outsize=963 ok=1
 Cmd: preprocess
-  error: 2 plat 12 at (19): Can't find include file AngryInclude.cginc
-  insize=1072 outsize=260 ok=0
-Cmd: preprocess
   insize=516 outsize=516 ok=1
 Cmd: preprocess
   insize=892 outsize=259 ok=1
 Cmd: preprocess
-  error: 2 plat 12 at (44): Can't find include file AngryInclude.cginc
-  insize=3642 outsize=1074 ok=0
-Cmd: preprocess
   insize=890 outsize=890 ok=1
-Cmd: preprocess
-  error: 2 plat 12 at (60): Can't find include file AngryInclude.cginc
-  insize=2487 outsize=742 ok=0
+Cmd: compileSnippet
+  api=5 type=0 insize=2580 outsize=2732 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=2580 outsize=6 kw= ok=1
