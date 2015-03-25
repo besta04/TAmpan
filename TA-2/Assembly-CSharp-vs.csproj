@@ -77,7 +77,12 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\Scripts\GUIController.cs" />
+     <Compile Include="Assets\Scripts\Ice.cs" />
+     <Compile Include="Assets\Scripts\Iceberg.cs" />
+     <Compile Include="Assets\Scripts\SmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Scripts\SmartTerrainTrackableEventHandler.cs" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Shader\SimpleIce.shader" />
      <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundArbitrary.shader" />
      <None Include="Assets\Shaders\BackgroundAndCharacters\ReflectiveBackgroundSelfIllumination.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
@@ -87,6 +92,8 @@
      <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
      <None Include="Assets\StreamingAssets\QCAR\TA.xml" />
+     <None Include="Assets\Shader\DynamicMeshSurface.shader" />
+     <None Include="Assets\Shader\Ice_TransparentWithDepthMask.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
