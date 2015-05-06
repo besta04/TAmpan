@@ -28,3 +28,15 @@ Institut Teknologi Sepuluh Nopember
 -tambahan GUI
 
 *TA-2.2:
+-discontinued, gak dilanjut
+
+*TA-3:
+-pake unity 5 & vuforia 4
+
+*TA-3.1:
+-black camera problem, gak dilanjut
+
+*TA-4:
+-black camera fixed
+-bisa bedain objek smart terrain yg muncul berdasarkan kordinat y
+-enchanced GUI

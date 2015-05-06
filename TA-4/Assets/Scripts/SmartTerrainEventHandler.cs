@@ -19,6 +19,7 @@ namespace Vuforia
         #region PRIVATE_MEMBERS
 
         private ReconstructionBehaviour mReconstructionBehaviour;
+        private bool propsCloned;
 
         #endregion // PRIVATE_MEMBERS
 
@@ -92,6 +93,30 @@ namespace Vuforia
         }
 
         #endregion // RECONSTRUCTION_CALLBACKS
+
+        public void ShowPropClones()
+        {
+            if (!propsCloned)
+            {
+                PropAbstractBehaviour[] props = GameObject.FindObjectsOfType(typeof(PropAbstractBehaviour)) as PropAbstractBehaviour[];
+
+                foreach (PropAbstractBehaviour prop in props)
+                {
+                    Transform BoundingBox = prop.transform.FindChild("BoundingBoxCollider");
+                    BoxCollider collider = BoundingBox.GetComponent<BoxCollider>();
+                    collider.isTrigger = false;
+
+                    prop.SetAutomaticUpdatesDisabled(true);
+                    Renderer propRenderer = prop.GetComponent<MeshRenderer>();
+                    if (propRenderer != null)
+                    {
+                        Destroy(propRenderer);
+                    }
+                }
+
+                propsCloned = true;
+            }
+        }
     }
 }
 

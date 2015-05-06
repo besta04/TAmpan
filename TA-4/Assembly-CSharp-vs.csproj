@@ -83,8 +83,10 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\Scripts\GUIController.cs" />
+     <Compile Include="Assets\Scripts\GUIManager.cs" />
      <Compile Include="Assets\Scripts\OtherGUIController.cs" />
      <Compile Include="Assets\Scripts\SmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Scripts\SmartTerrainTrackableEventHandler.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />

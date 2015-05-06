@@ -84,6 +84,7 @@
      <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
      <Compile Include="Assets\Scripts\GUIController.cs" />
      <Compile Include="Assets\Scripts\TouchBehaviour.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifest 1.xml" />
      <None Include="Assets\link.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
      <None Include="Assets\license_3rdpartynotice.txt" />
@@ -95,6 +96,7 @@
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
      <None Include="Assets\StreamingAssets\QCAR\TA.xml" />
      <None Include="Assets\readme_SDK 1.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
      <None Include="Assets\readme_SDK.txt" />
  <Reference Include="UnityEngine.UI">

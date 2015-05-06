@@ -15,9 +15,15 @@ namespace Vuforia
     public class WireframeTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
     {
+        //public bool primarySurfaceStagged;
+        //public string testing = "abcde";
+
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
+        
+        //dummy, kalo ditaroh disini gabisa bool primarysurfacestagged
+        private OtherGUIController GUIControllers;
     
         #endregion // PRIVATE_MEMBER_VARIABLES
 
@@ -27,6 +33,7 @@ namespace Vuforia
     
         void Start()
         {
+            GUIControllers = GameObject.FindObjectOfType(typeof(OtherGUIController)) as OtherGUIController;
             mTrackableBehaviour = GetComponent<TrackableBehaviour>();
             if (mTrackableBehaviour)
             {
@@ -91,6 +98,14 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            //if(mTrackableBehaviour.TrackableName.Contains("Primary Surface"))
+            //{
+                //Debug.Log(testing);
+                //primarySurfaceStagged = true;
+                //this.testing = "vwxyz";
+                //Debug.Log(testing);
+            //}
+            this.GUIControllers.primarySurfaceStagged = true;
         }
 
 
@@ -118,6 +133,8 @@ namespace Vuforia
                 component.enabled = false;
             }
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+            //primarySurfaceStagged = false;
+            this.GUIControllers.primarySurfaceStagged = false;
         }
 
         #endregion // PRIVATE_METHODS

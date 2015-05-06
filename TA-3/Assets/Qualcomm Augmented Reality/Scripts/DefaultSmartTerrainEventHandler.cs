@@ -26,7 +26,6 @@ namespace Vuforia
         #region PUBLIC_MEMBERS
 
         public PropBehaviour PropTemplate;
-        public PropBehaviour PropTemplate2;
         public SurfaceBehaviour SurfaceTemplate;
 
         #endregion // PUBLIC_MEMBERS
@@ -65,19 +64,8 @@ namespace Vuforia
         /// </summary>
         public void OnPropCreated(Prop prop)
         {
-            Debug.Log("created prop");
             if (mReconstructionBehaviour)
-            {
-                if(prop.LocalPosition.z < 0)
-                {
-                    mReconstructionBehaviour.AssociateProp(PropTemplate, prop);
-                }
-                else
-                {
-                    mReconstructionBehaviour.AssociateProp(PropTemplate2, prop);
-                }
-            }
-                //mReconstructionBehaviour.AssociateProp(PropTemplate, prop);
+                mReconstructionBehaviour.AssociateProp(PropTemplate, prop);
         }
 
         /// <summary>
