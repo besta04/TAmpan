@@ -10,6 +10,7 @@ public enum UIStates
 public class OtherGUIController : MonoBehaviour {
 
     public bool primarySurfaceStagged;
+    public bool cylinderTarget;
 
     private UIStates state;
     private GUIManager uiInput;
@@ -73,7 +74,14 @@ public class OtherGUIController : MonoBehaviour {
             case UIStates.OVERLAY_OUTLINE:
                 uiInput.UpdateTitle(HEADER_MESSAGE.POINT_DEVICE);
                 smartSurface.GetComponent<Renderer>().enabled = false;
-                uiInput.DrawImageTargetOutline();
+                if (cylinderTarget)
+                {
+                    uiInput.DrawCylinderTargetOutline();
+                }
+                else
+                {
+                    uiInput.DrawImageTargetOutline();
+                }
                 uiInput.DrawBackButton();
                 if(smartTerrainTrackableHandler.trackablesFound)
                 {

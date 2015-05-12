@@ -90,20 +90,8 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
-            Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
-            Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
-
-            // Disable rendering:
-            foreach (Renderer component in rendererComponents)
-            {
-                component.enabled = false;
-            }
-
-            // Disable colliders:
-            foreach (Collider component in colliderComponents)
-            {
-                component.enabled = false;
-            }
+            transform.position = Vector3.zero;
+            transform.rotation = Quaternion.identity;
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 

@@ -13,6 +13,7 @@ public class GUIManager : MonoBehaviour {
     public event System.Action TappedResetButton;
 
     private GUIStyle imageTargetOverlay;
+    private GUIStyle cylinderTargetOverlay;
     private GUIStyle styleHeader;
     private Texture2D[] headerTextures;
     private GUIStyle backButton;
@@ -34,6 +35,7 @@ public class GUIManager : MonoBehaviour {
     public GUIManager()
     {
         imageTargetOverlay = new GUIStyle();
+        cylinderTargetOverlay = new GUIStyle();
         styleHeader = new GUIStyle();
         backButton = new GUIStyle();
         doneButton = new GUIStyle();
@@ -53,6 +55,9 @@ public class GUIManager : MonoBehaviour {
         resetButton.normal.background = Resources.Load("GUI/reset") as Texture2D;
 
         imageTargetOverlay.normal.background = Resources.Load("GUI/ImageTargetOutline") as Texture2D;
+        cylinderTargetOverlay.normal.background = Resources.Load("GUI/cylinderTargetOutline") as Texture2D;
+
+        UpdateTitle(HEADER_MESSAGE.POINT_DEVICE);
     }
 
     public void UpdateTitle(HEADER_MESSAGE message)
@@ -83,6 +88,18 @@ public class GUIManager : MonoBehaviour {
 
         float y = (Screen.height * 0.5f) - height * 0.6f;
         GUI.Box(new Rect(0, y, width, height), "", imageTargetOverlay);
+    }
+
+    public void DrawCylinderTargetOutline()
+    {
+        float textWidth = cylinderTargetOverlay.normal.background.width;
+        float textHeight = cylinderTargetOverlay.normal.background.height;
+
+        float width = Screen.width;
+        float height = (Screen.width / textWidth) * textHeight;
+
+        float y = (Screen.height * 0.5f) - height * 0.6f;
+        GUI.Box(new Rect(0, y, width, height), "", cylinderTargetOverlay);
     }
 
     public void DrawBackButton()
