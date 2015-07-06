@@ -3,14 +3,21 @@ using System.Collections;
 
 public class GUIController : MonoBehaviour {
 
+    private LoadingScreen loadingScreen;
+
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+    {
+        loadingScreen = FindObjectOfType<LoadingScreen>();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-	   
+	void Update () 
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
 	}
 
     void OnGUI()
@@ -22,7 +29,7 @@ public class GUIController : MonoBehaviour {
         float topPosition = 100;
 
         // Make a background box
-        GUI.Box(new Rect(50, 50, width - 100, height - 100), "Select Methods");
+        GUI.Box(new Rect(50, 50, width - 100, height - 100), "");
 
         GUIStyle style = new GUIStyle();
         style.fontSize = 68;
@@ -46,16 +53,28 @@ public class GUIController : MonoBehaviour {
         style.normal.background = texture;
         
         // Make the first button. If it is pressed, Application.Loadlevel (1) will be executed
-        if (GUI.Button(new Rect(75, topPosition, buttonWidth, buttonHeight), "Image Target", style))
+        //if (GUI.Button(new Rect(75, topPosition, buttonWidth, buttonHeight), "Image Target", style))
+        //{
+        //    Application.LoadLevelAsync(2);
+        //}
+        topPosition = topPosition + buttonHeight;
+        topPosition += 10;
+        topPosition /= 2;
+        // Make the second button.
+        if (GUI.Button(new Rect(75, topPosition, buttonWidth, buttonHeight), "Start!", style))
         {
-            Application.LoadLevel(1);
+            Application.LoadLevelAsync(3);
         }
         topPosition = topPosition + buttonHeight;
         topPosition += 10;
-        // Make the second button.
-        if (GUI.Button(new Rect(75, topPosition, buttonWidth, buttonHeight), "Cylinder Target", style))
+        if (GUI.Button(new Rect(75, topPosition, buttonWidth/2-5, buttonHeight), "Help", style))
         {
-            Application.LoadLevel(2);
+            Application.LoadLevelAsync(6);
+        }
+        
+        if (GUI.Button(new Rect(75 + buttonWidth/2+5, topPosition, buttonWidth/2-5, buttonHeight), "About", style))
+        {
+            Application.LoadLevelAsync(5);
         }
     }
 }

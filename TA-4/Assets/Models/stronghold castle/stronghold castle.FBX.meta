@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: c06f38f7c35896e478c61cd5722e2bdb
+timeCreated: 1433948328
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back  side
+    100002: Box124
+    100004: Box125
+    100006: Box1993
+    100008: Box1994
+    100010: Box1995
+    100012: Box1996
+    100014: Box1998
+    100016: Box1999
+    100018: Box2000
+    100020: castlcrown
+    100022: castle
+    100024: cornal
+    100026: cornal001
+    100028: cornal002
+    100030: cornal003
+    100032: cornal004
+    100034: cornal005
+    100036: cornal006
+    100038: cornal007
+    100040: cornal008
+    100042: cornal009
+    100044: cornal010
+    100046: cornal011
+    100048: cornal012
+    100050: cornal013
+    100052: cornal014
+    100054: cornal015
+    100056: crown
+    100058: crown002
+    100060: crown003
+    100062: crown004
+    100064: crown01
+    100066: Floor_Object003
+    100068: Floor_Object004
+    100070: Floor_Object007
+    100072: Floor_Object008
+    100074: front
+    100076: keep
+    100078: 'left side '
+    100080: Object
+    100082: Object001
+    100084: Object002
+    100086: Object003
+    100088: Object004
+    100090: Object005
+    100092: Object006
+    100094: Object007
+    100096: PivotDoor01
+    100098: Plane002
+    100100: Plane003
+    100102: Plane004
+    100104: Plane005
+    100106: Rectangle035
+    100108: Rectangle036
+    100110: Rectangle037
+    100112: Rectangle039
+    100114: Rectangle040
+    100116: Rectangle045
+    100118: Rectangle046
+    100120: Rectangle047
+    100122: Rectangle048
+    100124: Rectangle07
+    100126: Rectangle16
+    100128: right  side
+    100130: Stair
+    100132: //RootNode
+    100134: tower
+    100136: tower 1
+    100138: tower 2
+    100140: tower 3
+    100142: tower sides
+    100144: tower sides 1
+    100146: tower sides 2
+    100148: tower sides 3
+    100150: tower sides 4
+    100152: tower sides 5
+    100154: tower sides 6
+    100156: tower sides 7
+    100158: tower sides001
+    100160: tower sides002
+    100162: tower sides003
+    100164: tower sides004
+    100166: tower sides005
+    100168: tower sides006
+    100170: tower sides007
+    100172: tower sides008
+    100174: tower sides009
+    100176: tower sides010
+    100178: tower sides011
+    100180: tower sides012
+    100182: tower sides013
+    100184: tower sides014
+    100186: tower sides015
+    100188: tower sides016
+    100190: tower sides017
+    100192: tower sides018
+    100194: tower sides019
+    100196: tower sides020
+    100198: tower sides021
+    100200: tower sides022
+    100202: tower sides023
+    100204: tower sides024
+    100206: towerwindow
+    100208: towerwindow001
+    100210: towerwindow002
+    100212: towerwindow003
+    100214: towerwindow016
+    100216: towerwindow017
+    100218: towerwindow018
+    100220: towerwindow019
+    100222: towerwindow020
+    100224: towerwindow021
+    100226: towerwindow022
+    100228: towerwindow023
+    100230: towerwindow024
+    100232: towerwindow025
+    100234: towerwindow026
+    100236: towerwindow027
+    100238: towerwindow028
+    100240: towerwindow029
+    100242: towerwindow030
+    100244: towerwindow031
+    100246: towerwindow032
+    100248: towerwindow033
+    100250: towerwindow034
+    100252: towerwindow035
+    100254: towerwindow036
+    100256: towerwindow037
+    100258: towerwindow038
+    100260: towerwindow039
+    100262: towerwindow040
+    100264: towerwindow041
+    100266: towerwindow042
+    100268: towerwindow043
+    100270: towerwindow044
+    100272: towerwindow045
+    100274: towerwindow046
+    100276: towerwindow047
+    100278: towerwindow048
+    100280: towerwindow049
+    100282: towerwindow050
+    100284: towerwindow051
+    100286: towerwindow052
+    100288: towerwindow053
+    100290: towerwindow054
+    100292: towerwindow055
+    100294: towerwindow056
+    100296: towerwindow057
+    100298: towerwindow058
+    100300: towerwindow059
+    100302: towerwindow060
+    100304: towerwindow061
+    100306: towerwindow062
+    100308: towerwindow063
+    100310: towerwindow064
+    100312: towerwindow065
+    100314: towerwindow066
+    100316: towerwindow067
+    100318: towerwindow068
+    100320: towerwindow069
+    100322: towerwindow070
+    100324: towerwindow071
+    100326: towerwindow072
+    100328: towerwindow073
+    100330: towerwindow074
+    100332: towerwindow075
+    400000: back  side
+    400002: Box124
+    400004: Box125
+    400006: Box1993
+    400008: Box1994
+    400010: Box1995
+    400012: Box1996
+    400014: Box1998
+    400016: Box1999
+    400018: Box2000
+    400020: castlcrown
+    400022: castle
+    400024: cornal
+    400026: cornal001
+    400028: cornal002
+    400030: cornal003
+    400032: cornal004
+    400034: cornal005
+    400036: cornal006
+    400038: cornal007
+    400040: cornal008
+    400042: cornal009
+    400044: cornal010
+    400046: cornal011
+    400048: cornal012
+    400050: cornal013
+    400052: cornal014
+    400054: cornal015
+    400056: crown
+    400058: crown002
+    400060: crown003
+    400062: crown004
+    400064: crown01
+    400066: Floor_Object003
+    400068: Floor_Object004
+    400070: Floor_Object007
+    400072: Floor_Object008
+    400074: front
+    400076: keep
+    400078: 'left side '
+    400080: Object
+    400082: Object001
+    400084: Object002
+    400086: Object003
+    400088: Object004
+    400090: Object005
+    400092: Object006
+    400094: Object007
+    400096: PivotDoor01
+    400098: Plane002
+    400100: Plane003
+    400102: Plane004
+    400104: Plane005
+    400106: Rectangle035
+    400108: Rectangle036
+    400110: Rectangle037
+    400112: Rectangle039
+    400114: Rectangle040
+    400116: Rectangle045
+    400118: Rectangle046
+    400120: Rectangle047
+    400122: Rectangle048
+    400124: Rectangle07
+    400126: Rectangle16
+    400128: right  side
+    400130: Stair
+    400132: //RootNode
+    400134: tower
+    400136: tower 1
+    400138: tower 2
+    400140: tower 3
+    400142: tower sides
+    400144: tower sides 1
+    400146: tower sides 2
+    400148: tower sides 3
+    400150: tower sides 4
+    400152: tower sides 5
+    400154: tower sides 6
+    400156: tower sides 7
+    400158: tower sides001
+    400160: tower sides002
+    400162: tower sides003
+    400164: tower sides004
+    400166: tower sides005
+    400168: tower sides006
+    400170: tower sides007
+    400172: tower sides008
+    400174: tower sides009
+    400176: tower sides010
+    400178: tower sides011
+    400180: tower sides012
+    400182: tower sides013
+    400184: tower sides014
+    400186: tower sides015
+    400188: tower sides016
+    400190: tower sides017
+    400192: tower sides018
+    400194: tower sides019
+    400196: tower sides020
+    400198: tower sides021
+    400200: tower sides022
+    400202: tower sides023
+    400204: tower sides024
+    400206: towerwindow
+    400208: towerwindow001
+    400210: towerwindow002
+    400212: towerwindow003
+    400214: towerwindow016
+    400216: towerwindow017
+    400218: towerwindow018
+    400220: towerwindow019
+    400222: towerwindow020
+    400224: towerwindow021
+    400226: towerwindow022
+    400228: towerwindow023
+    400230: towerwindow024
+    400232: towerwindow025
+    400234: towerwindow026
+    400236: towerwindow027
+    400238: towerwindow028
+    400240: towerwindow029
+    400242: towerwindow030
+    400244: towerwindow031
+    400246: towerwindow032
+    400248: towerwindow033
+    400250: towerwindow034
+    400252: towerwindow035
+    400254: towerwindow036
+    400256: towerwindow037
+    400258: towerwindow038
+    400260: towerwindow039
+    400262: towerwindow040
+    400264: towerwindow041
+    400266: towerwindow042
+    400268: towerwindow043
+    400270: towerwindow044
+    400272: towerwindow045
+    400274: towerwindow046
+    400276: towerwindow047
+    400278: towerwindow048
+    400280: towerwindow049
+    400282: towerwindow050
+    400284: towerwindow051
+    400286: towerwindow052
+    400288: towerwindow053
+    400290: towerwindow054
+    400292: towerwindow055
+    400294: towerwindow056
+    400296: towerwindow057
+    400298: towerwindow058
+    400300: towerwindow059
+    400302: towerwindow060
+    400304: towerwindow061
+    400306: towerwindow062
+    400308: towerwindow063
+    400310: towerwindow064
+    400312: towerwindow065
+    400314: towerwindow066
+    400316: towerwindow067
+    400318: towerwindow068
+    400320: towerwindow069
+    400322: towerwindow070
+    400324: towerwindow071
+    400326: towerwindow072
+    400328: towerwindow073
+    400330: towerwindow074
+    400332: towerwindow075
+    2300000: Box124
+    2300002: Box125
+    2300004: Box1993
+    2300006: Box1994
+    2300008: Box1995
+    2300010: Box1996
+    2300012: Box1998
+    2300014: Box1999
+    2300016: Box2000
+    2300018: castlcrown
+    2300020: cornal
+    2300022: cornal001
+    2300024: cornal002
+    2300026: cornal003
+    2300028: cornal004
+    2300030: cornal005
+    2300032: cornal006
+    2300034: cornal007
+    2300036: cornal008
+    2300038: cornal009
+    2300040: cornal010
+    2300042: cornal011
+    2300044: cornal012
+    2300046: cornal013
+    2300048: cornal014
+    2300050: cornal015
+    2300052: crown
+    2300054: crown002
+    2300056: crown003
+    2300058: crown004
+    2300060: Floor_Object003
+    2300062: Floor_Object004
+    2300064: Floor_Object007
+    2300066: Floor_Object008
+    2300068: Object
+    2300070: Object001
+    2300072: Object002
+    2300074: Object003
+    2300076: Object004
+    2300078: Object005
+    2300080: Object006
+    2300082: Object007
+    2300084: PivotDoor01
+    2300086: Plane002
+    2300088: Plane003
+    2300090: Plane004
+    2300092: Plane005
+    2300094: Rectangle035
+    2300096: Rectangle036
+    2300098: Rectangle037
+    2300100: Rectangle039
+    2300102: Rectangle040
+    2300104: Rectangle045
+    2300106: Rectangle046
+    2300108: Rectangle047
+    2300110: Rectangle048
+    2300112: Rectangle07
+    2300114: Rectangle16
+    2300116: Stair
+    2300118: tower sides
+    2300120: tower sides 1
+    2300122: tower sides 2
+    2300124: tower sides 3
+    2300126: tower sides 4
+    2300128: tower sides 5
+    2300130: tower sides 6
+    2300132: tower sides 7
+    2300134: tower sides001
+    2300136: tower sides002
+    2300138: tower sides003
+    2300140: tower sides004
+    2300142: tower sides005
+    2300144: tower sides006
+    2300146: tower sides007
+    2300148: tower sides008
+    2300150: tower sides009
+    2300152: tower sides010
+    2300154: tower sides011
+    2300156: tower sides012
+    2300158: tower sides013
+    2300160: tower sides014
+    2300162: tower sides015
+    2300164: tower sides016
+    2300166: tower sides017
+    2300168: tower sides018
+    2300170: tower sides019
+    2300172: tower sides020
+    2300174: tower sides021
+    2300176: tower sides022
+    2300178: tower sides023
+    2300180: tower sides024
+    2300182: towerwindow
+    2300184: towerwindow001
+    2300186: towerwindow002
+    2300188: towerwindow003
+    2300190: towerwindow016
+    2300192: towerwindow017
+    2300194: towerwindow018
+    2300196: towerwindow019
+    2300198: towerwindow020
+    2300200: towerwindow021
+    2300202: towerwindow022
+    2300204: towerwindow023
+    2300206: towerwindow024
+    2300208: towerwindow025
+    2300210: towerwindow026
+    2300212: towerwindow027
+    2300214: towerwindow028
+    2300216: towerwindow029
+    2300218: towerwindow030
+    2300220: towerwindow031
+    2300222: towerwindow032
+    2300224: towerwindow033
+    2300226: towerwindow034
+    2300228: towerwindow035
+    2300230: towerwindow036
+    2300232: towerwindow037
+    2300234: towerwindow038
+    2300236: towerwindow039
+    2300238: towerwindow040
+    2300240: towerwindow041
+    2300242: towerwindow042
+    2300244: towerwindow043
+    2300246: towerwindow044
+    2300248: towerwindow045
+    2300250: towerwindow046
+    2300252: towerwindow047
+    2300254: towerwindow048
+    2300256: towerwindow049
+    2300258: towerwindow050
+    2300260: towerwindow051
+    2300262: towerwindow052
+    2300264: towerwindow053
+    2300266: towerwindow054
+    2300268: towerwindow055
+    2300270: towerwindow056
+    2300272: towerwindow057
+    2300274: towerwindow058
+    2300276: towerwindow059
+    2300278: towerwindow060
+    2300280: towerwindow061
+    2300282: towerwindow062
+    2300284: towerwindow063
+    2300286: towerwindow064
+    2300288: towerwindow065
+    2300290: towerwindow066
+    2300292: towerwindow067
+    2300294: towerwindow068
+    2300296: towerwindow069
+    2300298: towerwindow070
+    2300300: towerwindow071
+    2300302: towerwindow072
+    2300304: towerwindow073
+    2300306: towerwindow074
+    2300308: towerwindow075
+    3300000: Box124
+    3300002: Box125
+    3300004: Box1993
+    3300006: Box1994
+    3300008: Box1995
+    3300010: Box1996
+    3300012: Box1998
+    3300014: Box1999
+    3300016: Box2000
+    3300018: castlcrown
+    3300020: cornal
+    3300022: cornal001
+    3300024: cornal002
+    3300026: cornal003
+    3300028: cornal004
+    3300030: cornal005
+    3300032: cornal006
+    3300034: cornal007
+    3300036: cornal008
+    3300038: cornal009
+    3300040: cornal010
+    3300042: cornal011
+    3300044: cornal012
+    3300046: cornal013
+    3300048: cornal014
+    3300050: cornal015
+    3300052: crown
+    3300054: crown002
+    3300056: crown003
+    3300058: crown004
+    3300060: Floor_Object003
+    3300062: Floor_Object004
+    3300064: Floor_Object007
+    3300066: Floor_Object008
+    3300068: Object
+    3300070: Object001
+    3300072: Object002
+    3300074: Object003
+    3300076: Object004
+    3300078: Object005
+    3300080: Object006
+    3300082: Object007
+    3300084: PivotDoor01
+    3300086: Plane002
+    3300088: Plane003
+    3300090: Plane004
+    3300092: Plane005
+    3300094: Rectangle035
+    3300096: Rectangle036
+    3300098: Rectangle037
+    3300100: Rectangle039
+    3300102: Rectangle040
+    3300104: Rectangle045
+    3300106: Rectangle046
+    3300108: Rectangle047
+    3300110: Rectangle048
+    3300112: Rectangle07
+    3300114: Rectangle16
+    3300116: Stair
+    3300118: tower sides
+    3300120: tower sides 1
+    3300122: tower sides 2
+    3300124: tower sides 3
+    3300126: tower sides 4
+    3300128: tower sides 5
+    3300130: tower sides 6
+    3300132: tower sides 7
+    3300134: tower sides001
+    3300136: tower sides002
+    3300138: tower sides003
+    3300140: tower sides004
+    3300142: tower sides005
+    3300144: tower sides006
+    3300146: tower sides007
+    3300148: tower sides008
+    3300150: tower sides009
+    3300152: tower sides010
+    3300154: tower sides011
+    3300156: tower sides012
+    3300158: tower sides013
+    3300160: tower sides014
+    3300162: tower sides015
+    3300164: tower sides016
+    3300166: tower sides017
+    3300168: tower sides018
+    3300170: tower sides019
+    3300172: tower sides020
+    3300174: tower sides021
+    3300176: tower sides022
+    3300178: tower sides023
+    3300180: tower sides024
+    3300182: towerwindow
+    3300184: towerwindow001
+    3300186: towerwindow002
+    3300188: towerwindow003
+    3300190: towerwindow016
+    3300192: towerwindow017
+    3300194: towerwindow018
+    3300196: towerwindow019
+    3300198: towerwindow020
+    3300200: towerwindow021
+    3300202: towerwindow022
+    3300204: towerwindow023
+    3300206: towerwindow024
+    3300208: towerwindow025
+    3300210: towerwindow026
+    3300212: towerwindow027
+    3300214: towerwindow028
+    3300216: towerwindow029
+    3300218: towerwindow030
+    3300220: towerwindow031
+    3300222: towerwindow032
+    3300224: towerwindow033
+    3300226: towerwindow034
+    3300228: towerwindow035
+    3300230: towerwindow036
+    3300232: towerwindow037
+    3300234: towerwindow038
+    3300236: towerwindow039
+    3300238: towerwindow040
+    3300240: towerwindow041
+    3300242: towerwindow042
+    3300244: towerwindow043
+    3300246: towerwindow044
+    3300248: towerwindow045
+    3300250: towerwindow046
+    3300252: towerwindow047
+    3300254: towerwindow048
+    3300256: towerwindow049
+    3300258: towerwindow050
+    3300260: towerwindow051
+    3300262: towerwindow052
+    3300264: towerwindow053
+    3300266: towerwindow054
+    3300268: towerwindow055
+    3300270: towerwindow056
+    3300272: towerwindow057
+    3300274: towerwindow058
+    3300276: towerwindow059
+    3300278: towerwindow060
+    3300280: towerwindow061
+    3300282: towerwindow062
+    3300284: towerwindow063
+    3300286: towerwindow064
+    3300288: towerwindow065
+    3300290: towerwindow066
+    3300292: towerwindow067
+    3300294: towerwindow068
+    3300296: towerwindow069
+    3300298: towerwindow070
+    3300300: towerwindow071
+    3300302: towerwindow072
+    3300304: towerwindow073
+    3300306: towerwindow074
+    3300308: towerwindow075
+    4300000: PivotDoor01
+    4300002: Box2000
+    4300004: Box124
+    4300006: Box125
+    4300008: Stair
+    4300010: castlcrown
+    4300012: Rectangle16
+    4300014: Box1999
+    4300016: Box1998
+    4300018: towerwindow019
+    4300020: tower sides
+    4300022: tower sides
+    4300024: cornal003
+    4300026: cornal
+    4300028: towerwindow025
+    4300030: Object
+    4300032: Plane002
+    4300034: tower sides
+    4300036: tower sides
+    4300038: tower sides
+    4300040: tower sides
+    4300042: tower sides
+    4300044: Box1993
+    4300046: crown
+    4300048: cornal001
+    4300050: tower sides
+    4300052: towerwindow026
+    4300054: towerwindow002
+    4300056: towerwindow003
+    4300058: towerwindow024
+    4300060: cornal002
+    4300062: towerwindow018
+    4300064: towerwindow001
+    4300066: towerwindow
+    4300068: towerwindow023
+    4300070: towerwindow027
+    4300072: towerwindow020
+    4300074: towerwindow021
+    4300076: towerwindow022
+    4300078: towerwindow017
+    4300080: towerwindow016
+    4300082: Object002
+    4300084: Rectangle039
+    4300086: Rectangle040
+    4300088: Floor_Object004
+    4300090: Object004
+    4300092: Floor_Object008
+    4300094: Rectangle047
+    4300096: Rectangle048
+    4300098: Floor_Object007
+    4300100: Object003
+    4300102: Rectangle045
+    4300104: Rectangle046
+    4300106: Rectangle07
+    4300108: Rectangle036
+    4300110: Rectangle037
+    4300112: Floor_Object003
+    4300114: Object001
+    4300116: Rectangle035
+    4300118: crown004
+    4300120: towerwindow060
+    4300122: tower sides017
+    4300124: tower sides018
+    4300126: cornal012
+    4300128: cornal013
+    4300130: towerwindow061
+    4300132: Object007
+    4300134: Plane005
+    4300136: tower sides019
+    4300138: tower sides020
+    4300140: tower sides021
+    4300142: tower sides022
+    4300144: tower sides023
+    4300146: Box1996
+    4300148: cornal014
+    4300150: tower sides024
+    4300152: towerwindow062
+    4300154: towerwindow063
+    4300156: towerwindow064
+    4300158: towerwindow065
+    4300160: cornal015
+    4300162: towerwindow066
+    4300164: towerwindow067
+    4300166: towerwindow068
+    4300168: towerwindow069
+    4300170: towerwindow070
+    4300172: towerwindow071
+    4300174: towerwindow072
+    4300176: towerwindow073
+    4300178: towerwindow074
+    4300180: towerwindow075
+    4300182: tower sides009
+    4300184: towerwindow044
+    4300186: tower sides010
+    4300188: tower sides011
+    4300190: cornal008
+    4300192: cornal009
+    4300194: towerwindow045
+    4300196: Object006
+    4300198: Plane004
+    4300200: tower sides012
+    4300202: tower sides013
+    4300204: tower sides014
+    4300206: tower sides015
+    4300208: Box1995
+    4300210: crown003
+    4300212: cornal010
+    4300214: tower sides016
+    4300216: towerwindow046
+    4300218: towerwindow047
+    4300220: towerwindow048
+    4300222: towerwindow049
+    4300224: cornal011
+    4300226: towerwindow050
+    4300228: towerwindow051
+    4300230: towerwindow052
+    4300232: towerwindow053
+    4300234: towerwindow054
+    4300236: towerwindow055
+    4300238: towerwindow056
+    4300240: towerwindow057
+    4300242: towerwindow058
+    4300244: towerwindow059
+    4300246: tower sides001
+    4300248: towerwindow028
+    4300250: tower sides002
+    4300252: tower sides003
+    4300254: cornal004
+    4300256: cornal005
+    4300258: towerwindow029
+    4300260: Object005
+    4300262: Plane003
+    4300264: tower sides004
+    4300266: tower sides005
+    4300268: tower sides006
+    4300270: tower sides007
+    4300272: Box1994
+    4300274: crown002
+    4300276: cornal006
+    4300278: tower sides008
+    4300280: towerwindow030
+    4300282: towerwindow031
+    4300284: towerwindow032
+    4300286: towerwindow033
+    4300288: cornal007
+    4300290: towerwindow034
+    4300292: towerwindow035
+    4300294: towerwindow036
+    4300296: towerwindow037
+    4300298: towerwindow038
+    4300300: towerwindow039
+    4300302: towerwindow040
+    4300304: towerwindow041
+    4300306: towerwindow042
+    4300308: towerwindow043
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

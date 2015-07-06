@@ -14,8 +14,12 @@ namespace Vuforia
 
         #region PRIVATE_MEMBER_VARIABLES
 
-        private TrackableBehaviour mTrackableBehaviour;
+        private CylinderTargetAbstractBehaviour cylinderTarget;
+        private TrackableBehaviour trackableBehaviour;
+        private CylinderGUIController GUI;
+        private DebugLogController debugLog;
 
+        private bool trackableDetectedFirstTime = true;
         #endregion // PRIVATE_MEMBER_VARIABLES
 
 
@@ -24,10 +28,14 @@ namespace Vuforia
 
         void Start()
         {
-            mTrackableBehaviour = GetComponent<TrackableBehaviour>();
-            if (mTrackableBehaviour)
+            debugLog = FindObjectOfType(typeof(DebugLogController)) as DebugLogController;
+            cylinderTarget = FindObjectOfType(typeof(CylinderTargetAbstractBehaviour)) as CylinderTargetAbstractBehaviour;
+            GUI = FindObjectOfType(typeof(CylinderGUIController)) as CylinderGUIController;
+
+            trackableBehaviour = GetComponent<TrackableBehaviour>();
+            if (trackableBehaviour)
             {
-                mTrackableBehaviour.RegisterTrackableEventHandler(this);
+                trackableBehaviour.RegisterTrackableEventHandler(this);
             }
         }
 
@@ -49,10 +57,12 @@ namespace Vuforia
                 newStatus == TrackableBehaviour.Status.TRACKED ||
                 newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
             {
+                GUI.primarySurfaceStagged = true;
                 OnTrackingFound();
             }
             else
             {
+                GUI.primarySurfaceStagged = false;
                 OnTrackingLost();
             }
         }
@@ -68,6 +78,7 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            WireframeBehaviour[] wireframeComponents = GetComponentsInChildren<WireframeBehaviour>(true);
 
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
@@ -81,7 +92,23 @@ namespace Vuforia
                 component.enabled = true;
             }
 
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
+            // Enable wireframe rendering:
+            foreach (Collider component in colliderComponents)
+            {
+                component.enabled = true;
+            }
+
+            Debug.Log("Trackable " + trackableBehaviour.TrackableName + " found");
+            debugLog.InsertLog("Trackable " + trackableBehaviour.TrackableName + " found");
+
+            if (cylinderTarget != null)
+            {
+                Renderer[] rendererComponentsOfCylinder = cylinderTarget.gameObject.GetComponentsInChildren<Renderer>(true);
+                foreach (Renderer component in rendererComponentsOfCylinder)
+                {
+                    component.enabled = true;
+                }
+            }
 
             trackablesFound = true;
             //tes = "opqrs";
@@ -90,10 +117,41 @@ namespace Vuforia
 
         private void OnTrackingLost()
         {
-            transform.position = Vector3.zero;
-            transform.rotation = Quaternion.identity;
+            Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
+            Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            WireframeBehaviour[] wireframeComponents = GetComponentsInChildren<WireframeBehaviour>(true);
 
-            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
+            // Disable rendering:
+            foreach (Renderer component in rendererComponents)
+            {
+                component.enabled = false;
+            }
+
+            // Disable colliders:
+            foreach (Collider component in colliderComponents)
+            {
+                component.enabled = false;
+            }
+
+            // Disable wireframe rendering:
+            foreach (WireframeBehaviour component in wireframeComponents)
+            {
+                component.enabled = false;
+            }
+
+            Debug.Log("Trackable " + trackableBehaviour.TrackableName + " lost");
+            debugLog.InsertLog("Trackable " + trackableBehaviour.TrackableName + " lost");
+
+            //hide the soda can and iceberg only when smart terrain tracking is lost.
+
+            if (cylinderTarget != null)
+            {
+                Renderer[] rendererComponentsOfCylinder = cylinderTarget.gameObject.GetComponentsInChildren<Renderer>(true);
+                foreach (Renderer component in rendererComponentsOfCylinder)
+                {
+                    component.enabled = false;
+                }
+            }
 
             trackablesFound = false;
         }

@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 7f748551baa52574086d9b15edd82191
+timeCreated: 1433924986
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bush_tall002_MeshPart0
+    100004: bush_tall002_MeshPart1
+    100006: bush_tall002_MeshPart10
+    100008: bush_tall002_MeshPart11
+    100010: bush_tall002_MeshPart12
+    100012: bush_tall002_MeshPart13
+    100014: bush_tall002_MeshPart14
+    100016: bush_tall002_MeshPart15
+    100018: bush_tall002_MeshPart16
+    100020: bush_tall002_MeshPart17
+    100022: bush_tall002_MeshPart18
+    100024: bush_tall002_MeshPart19
+    100026: bush_tall002_MeshPart2
+    100028: bush_tall002_MeshPart20
+    100030: bush_tall002_MeshPart21
+    100032: bush_tall002_MeshPart3
+    100034: bush_tall002_MeshPart4
+    100036: bush_tall002_MeshPart5
+    100038: bush_tall002_MeshPart6
+    100040: bush_tall002_MeshPart7
+    100042: bush_tall002_MeshPart8
+    100044: bush_tall002_MeshPart9
+    400000: //RootNode
+    400002: bush_tall002_MeshPart0
+    400004: bush_tall002_MeshPart1
+    400006: bush_tall002_MeshPart10
+    400008: bush_tall002_MeshPart11
+    400010: bush_tall002_MeshPart12
+    400012: bush_tall002_MeshPart13
+    400014: bush_tall002_MeshPart14
+    400016: bush_tall002_MeshPart15
+    400018: bush_tall002_MeshPart16
+    400020: bush_tall002_MeshPart17
+    400022: bush_tall002_MeshPart18
+    400024: bush_tall002_MeshPart19
+    400026: bush_tall002_MeshPart2
+    400028: bush_tall002_MeshPart20
+    400030: bush_tall002_MeshPart21
+    400032: bush_tall002_MeshPart3
+    400034: bush_tall002_MeshPart4
+    400036: bush_tall002_MeshPart5
+    400038: bush_tall002_MeshPart6
+    400040: bush_tall002_MeshPart7
+    400042: bush_tall002_MeshPart8
+    400044: bush_tall002_MeshPart9
+    2300000: bush_tall002_MeshPart0
+    2300002: bush_tall002_MeshPart1
+    2300004: bush_tall002_MeshPart10
+    2300006: bush_tall002_MeshPart11
+    2300008: bush_tall002_MeshPart12
+    2300010: bush_tall002_MeshPart13
+    2300012: bush_tall002_MeshPart14
+    2300014: bush_tall002_MeshPart15
+    2300016: bush_tall002_MeshPart16
+    2300018: bush_tall002_MeshPart17
+    2300020: bush_tall002_MeshPart18
+    2300022: bush_tall002_MeshPart19
+    2300024: bush_tall002_MeshPart2
+    2300026: bush_tall002_MeshPart20
+    2300028: bush_tall002_MeshPart21
+    2300030: bush_tall002_MeshPart3
+    2300032: bush_tall002_MeshPart4
+    2300034: bush_tall002_MeshPart5
+    2300036: bush_tall002_MeshPart6
+    2300038: bush_tall002_MeshPart7
+    2300040: bush_tall002_MeshPart8
+    2300042: bush_tall002_MeshPart9
+    3300000: bush_tall002_MeshPart0
+    3300002: bush_tall002_MeshPart1
+    3300004: bush_tall002_MeshPart10
+    3300006: bush_tall002_MeshPart11
+    3300008: bush_tall002_MeshPart12
+    3300010: bush_tall002_MeshPart13
+    3300012: bush_tall002_MeshPart14
+    3300014: bush_tall002_MeshPart15
+    3300016: bush_tall002_MeshPart16
+    3300018: bush_tall002_MeshPart17
+    3300020: bush_tall002_MeshPart18
+    3300022: bush_tall002_MeshPart19
+    3300024: bush_tall002_MeshPart2
+    3300026: bush_tall002_MeshPart20
+    3300028: bush_tall002_MeshPart21
+    3300030: bush_tall002_MeshPart3
+    3300032: bush_tall002_MeshPart4
+    3300034: bush_tall002_MeshPart5
+    3300036: bush_tall002_MeshPart6
+    3300038: bush_tall002_MeshPart7
+    3300040: bush_tall002_MeshPart8
+    3300042: bush_tall002_MeshPart9
+    4300000: bush_tall002_MeshPart0
+    4300002: bush_tall002_MeshPart1
+    4300004: bush_tall002_MeshPart2
+    4300006: bush_tall002_MeshPart3
+    4300008: bush_tall002_MeshPart4
+    4300010: bush_tall002_MeshPart5
+    4300012: bush_tall002_MeshPart6
+    4300014: bush_tall002_MeshPart7
+    4300016: bush_tall002_MeshPart8
+    4300018: bush_tall002_MeshPart9
+    4300020: bush_tall002_MeshPart10
+    4300022: bush_tall002_MeshPart11
+    4300024: bush_tall002_MeshPart12
+    4300026: bush_tall002_MeshPart13
+    4300028: bush_tall002_MeshPart14
+    4300030: bush_tall002_MeshPart15
+    4300032: bush_tall002_MeshPart16
+    4300034: bush_tall002_MeshPart17
+    4300036: bush_tall002_MeshPart18
+    4300038: bush_tall002_MeshPart19
+    4300040: bush_tall002_MeshPart20
+    4300042: bush_tall002_MeshPart21
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -16,6 +16,7 @@ public class OtherGUIController : MonoBehaviour {
     private GUIManager uiInput;
     private SurfaceBehaviour smartSurface;
     private SmartTerrainEventHandler smartTerrainEventHandler;
+    private CylinderSmartTerrainEventHandler cylinderSmartTerrainEventHandler;
     private SmartTerrainTrackableEventHandler smartTerrainTrackableHandler;
     private SmartTerrainTracker smartTerrainTracker;
     //private WireframeTrackableEventHandler wireframeTrackableHandler;
@@ -33,12 +34,15 @@ public class OtherGUIController : MonoBehaviour {
         smartTerrainTracker = TrackerManager.Instance.GetTracker<SmartTerrainTracker>();
         smartSurface = GameObject.FindObjectOfType(typeof(SurfaceBehaviour)) as SurfaceBehaviour;
         smartTerrainEventHandler = GameObject.FindObjectOfType(typeof(SmartTerrainEventHandler)) as SmartTerrainEventHandler;
+        cylinderSmartTerrainEventHandler = GameObject.FindObjectOfType(typeof(CylinderSmartTerrainEventHandler)) as CylinderSmartTerrainEventHandler;
         smartTerrainTrackableHandler = GameObject.FindObjectOfType(typeof(SmartTerrainTrackableEventHandler)) as SmartTerrainTrackableEventHandler;
         //wireframeTrackableHandler = GameObject.FindObjectOfType(typeof(WireframeTrackableEventHandler)) as WireframeTrackableEventHandler;
         //wireframeTrackableHandler.testing = "fuuu";
         uiInput.TappedBackButton += uiInput_TappedBackButton;
         uiInput.TappedDoneButton += uiInput_TappedDoneButton;
         uiInput.TappedResetButton += uiInput_TappedResetButton;
+
+        //state = UIStates.RENDERING;
 	}
 
     void uiInput_TappedResetButton()
@@ -118,7 +122,14 @@ public class OtherGUIController : MonoBehaviour {
 
             case UIStates.RENDERING:
                 uiInput.UpdateTitle(HEADER_MESSAGE.DEFAULT);
-                smartTerrainEventHandler.ShowPropClones();
+                if (cylinderTarget)
+                {
+                    cylinderSmartTerrainEventHandler.ShowPropClones();
+                }
+                else
+                {
+                    smartTerrainEventHandler.ShowPropClones();
+                }
                 //smartTerrainTracker.StopMeshUpdates();
                 //smartTerrainTracker.Stop();
                 uiInput.DrawBackButton();
@@ -126,7 +137,14 @@ public class OtherGUIController : MonoBehaviour {
                 break;
 
             case UIStates.RESET_ALL:
-                Application.LoadLevelAsync(1);
+                if (cylinderTarget)
+                {
+                    Application.LoadLevelAsync(2);
+                }
+                else
+                {
+                    Application.LoadLevelAsync(1);
+                }
                 state = UIStates.NONE;
                 break;
 

@@ -28,6 +28,7 @@ Institut Teknologi Sepuluh Nopember
 -tambahan GUI
 
 *TA-2.2:
+-perbaiki GUI, perbaiki cylinder target
 -discontinued, gak dilanjut
 
 *TA-3:
@@ -40,3 +41,30 @@ Institut Teknologi Sepuluh Nopember
 -black camera fixed
 -bisa bedain objek smart terrain yg muncul berdasarkan kordinat y
 -enchanced GUI
+
+*TA-4.1:
+-deteksi size objek nyata
+
+*TA-4.2:
+-major change to vuforia 4 environment (baru nemu sampelnya!!!! zzz)
+-ganti metode dr auto render object -> manual render
+-cylinder misah event handlernya
+-tracking stop setelah user tap tombol done
+-render objek setelah user tap done -> belum bisa
+
+*TA-4.3:
+-tambah karakter, user bisa tap di surface, rotation working
+-fix screen rotation, landscape only
+-surface texture lebih smooth
+problems:
+-karakter gerak bug, gabisa move
+-render objek setelah user tap done -> masih belum bisa
+
+*TA-4.4:
+-karakter gerak fix
+-render objek fix
+
+*TA-4.5:
+-tambah skenario
+-tambah about
+-tambah profil

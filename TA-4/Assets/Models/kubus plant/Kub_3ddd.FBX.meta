@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: e0631f181600dea49aea2b474d05f587
+timeCreated: 1433949814
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Box01
+    100002: GrowFX01
+    100004: GrowFX01_MeshPart0
+    100006: GrowFX01_MeshPart1
+    100008: GrowFX01_MeshPart10
+    100010: GrowFX01_MeshPart11
+    100012: GrowFX01_MeshPart2
+    100014: GrowFX01_MeshPart3
+    100016: GrowFX01_MeshPart4
+    100018: GrowFX01_MeshPart5
+    100020: GrowFX01_MeshPart6
+    100022: GrowFX01_MeshPart7
+    100024: GrowFX01_MeshPart8
+    100026: GrowFX01_MeshPart9
+    100028: GrowFX02
+    100030: //RootNode
+    100032: Particle View 01
+    400000: Box01
+    400002: GrowFX01
+    400004: GrowFX01_MeshPart0
+    400006: GrowFX01_MeshPart1
+    400008: GrowFX01_MeshPart10
+    400010: GrowFX01_MeshPart11
+    400012: GrowFX01_MeshPart2
+    400014: GrowFX01_MeshPart3
+    400016: GrowFX01_MeshPart4
+    400018: GrowFX01_MeshPart5
+    400020: GrowFX01_MeshPart6
+    400022: GrowFX01_MeshPart7
+    400024: GrowFX01_MeshPart8
+    400026: GrowFX01_MeshPart9
+    400028: GrowFX02
+    400030: //RootNode
+    400032: Particle View 01
+    2300000: Box01
+    2300002: GrowFX01_MeshPart0
+    2300004: GrowFX01_MeshPart1
+    2300006: GrowFX01_MeshPart10
+    2300008: GrowFX01_MeshPart11
+    2300010: GrowFX01_MeshPart2
+    2300012: GrowFX01_MeshPart3
+    2300014: GrowFX01_MeshPart4
+    2300016: GrowFX01_MeshPart5
+    2300018: GrowFX01_MeshPart6
+    2300020: GrowFX01_MeshPart7
+    2300022: GrowFX01_MeshPart8
+    2300024: GrowFX01_MeshPart9
+    2300026: GrowFX02
+    3300000: Box01
+    3300002: GrowFX01_MeshPart0
+    3300004: GrowFX01_MeshPart1
+    3300006: GrowFX01_MeshPart10
+    3300008: GrowFX01_MeshPart11
+    3300010: GrowFX01_MeshPart2
+    3300012: GrowFX01_MeshPart3
+    3300014: GrowFX01_MeshPart4
+    3300016: GrowFX01_MeshPart5
+    3300018: GrowFX01_MeshPart6
+    3300020: GrowFX01_MeshPart7
+    3300022: GrowFX01_MeshPart8
+    3300024: GrowFX01_MeshPart9
+    3300026: GrowFX02
+    4300000: GrowFX01_MeshPart0
+    4300002: GrowFX01_MeshPart1
+    4300004: GrowFX01_MeshPart2
+    4300006: GrowFX01_MeshPart3
+    4300008: GrowFX01_MeshPart4
+    4300010: GrowFX01_MeshPart5
+    4300012: GrowFX01_MeshPart6
+    4300014: GrowFX01_MeshPart7
+    4300016: GrowFX01_MeshPart8
+    4300018: GrowFX01_MeshPart9
+    4300020: GrowFX01_MeshPart10
+    4300022: GrowFX01_MeshPart11
+    4300024: GrowFX02
+    4300026: Box01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
